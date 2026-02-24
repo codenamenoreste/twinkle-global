@@ -334,29 +334,6 @@ body .ui-dialog.morebitsglobal-dialog .morebitsglobal-dialog-footerlinks a {
 	box-shadow: 0 0 5px #a2ab91;
 }
 
-/* For styling message/warning boxes. Cannot use MediaWiki ombox class because it will be deprecated soon. */
-table.morebitsglobal-ombox {
-    margin: 4px 10%;
-    border-collapse: collapse;
-    border: 1px solid #a2a9b1;
-    background: var(--background-color-neutral-subtle, #f8f9fa);
-    color: inherit;
-    box-sizing: border-box;
-}
-table.morebitsglobal-ombox-content {
-    border: 1px solid #f28500;
-}
-td.morebitsglobal-mbox-image {
-    border: none;
-    padding: 2px 0 2px 0.9em;
-    text-align: center;
-}
-th.morebitsglobal-mbox-text, td.morebitsglobal-mbox-text {
-    border: none;
-    padding: 0.25em 0.9em;
-    width: 100%;
-}
-
 /* Override select2 silliness */
 .select2-morebitsglobal,
 .select2-morebitsglobal .select2-results,
