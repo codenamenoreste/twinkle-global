@@ -94,7 +94,7 @@ html {
 
 /* Flexbox gap not supported by old Safari versions. Rendering without gap is okay. */
 /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
-.twinkle-ombox {
+.twinkleglobal-ombox {
 	display: flex;
 	align-items: center;
 	gap: 0.9em;
